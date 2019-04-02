@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background: #22a2dc;
+    font-family: "Allerta Stencil", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .sub-title {
+    color: #fff;
+    font-size: 15px;
+  }

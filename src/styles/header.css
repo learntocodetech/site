@@ -1,0 +1,41 @@
+header {
+    background: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Allerta Stencil", sans-serif;
+  }
+
+  .logo {
+    margin-left: 15px;
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+  
+  .logo .tech {
+    border: 2px solid #fff;
+    color: #22a2dc;
+    font-size: 20px;
+    margin-left: 2px;
+    padding: 2px;
+    letter-spacing: 0.5px;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    letter-spacing: 0.3px;
+  }
+  
+  nav a:hover {
+    color: #0086c2;
+  }

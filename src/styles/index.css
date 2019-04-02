@@ -1,0 +1,28 @@
+@import './layout.css';
+@import './header.css';
+@import './banner.css';
+@import './footer.css';
+
+
+.section-divider {
+    color: #22a2dc;
+    font-family: "Allerta Stencil", sans-serif;
+    background: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+  
+  .section-divider h3:hover {
+    color: #ffbd59;
+    cursor: pointer;
+  }
+
+  .half {
+    color: #ffbd59;
+  }
+  
