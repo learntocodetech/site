@@ -1,0 +1,15 @@
+.code-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.code-item:hover,
+.blog-item:hover,
+.video-section .video-item:hover {
+cursor: pointer;
+}
+
+.code-item img {
+border: 1px solid #000;
+box-shadow: 0 0 2px 0px;
+}

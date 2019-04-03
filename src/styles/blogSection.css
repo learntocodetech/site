@@ -1,0 +1,10 @@
+.blog-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.blog-item img {
+border: 1px solid #000;
+max-width: 300px;
+box-shadow: 0 0 2px 0px;
+}
