@@ -1,9 +1,9 @@
 .video-section .video-grid {
     display: flex;
     justify-content: space-between;
-  }
+}
   
 .video-section .video-item img {
-border: 1px solid #000;
-max-width: 300px;
+    border: 1px solid #000;
+    max-width: 300px;
 }
