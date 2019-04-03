@@ -14,18 +14,6 @@ import Banner from '../banner'
 import Footer from './footer'
 import "../../styles/index.css"
 
-
-/* Initialize web fonts | NTS: Measure performance */
-
-import WebFont from 'webfontloader';
-
-WebFont.load({
-  google: {
-    families: ['Allerta+Stencil', 'sans-serif']
-  }
-});
-
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
