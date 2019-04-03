@@ -8,32 +8,6 @@
 @import './contactSection.css';
 @import './videoSection.css';
 
-.section-divider {
-    color: #22a2dc;
-    font-family: "Allerta Stencil", sans-serif;
-    background: #000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    margin-top: 1px;
-    margin-bottom: 5px;
-  }
-  
-.section-divider h3:hover {
-  color: #ffbd59;
-  cursor: pointer;
-}
-
-.half {
-  color: #ffbd59;
-}
-
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
-}
 
 body {
   color: #fff;
@@ -41,7 +15,31 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 960;
+  /* max-width: 960; */
   padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0,
+  padding-top: 0;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.section-divider {
+  color: #22a2dc;
+  font-family: "Allerta Stencil", sans-serif;
+  background: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.section-divider h3:hover {
+color: #ffbd59;
+cursor: pointer;
+}
+
+.half {
+color: #ffbd59;
 }

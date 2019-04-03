@@ -11,7 +11,7 @@ import SEO from "../components/shared/seo"
 
 const IndexPage = () => {
   return (<Layout>
-            <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />]
+            <SEO title="Learn to Code Tech" keywords={[`gatsby`, `application`, `react`]} />
             <Hero />
             <CodeSection />
           </Layout>)
