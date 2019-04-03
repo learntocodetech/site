@@ -3,7 +3,7 @@ import React from 'react'
 const VideoSection = () => {
     return (<section class="video-section">
                 <div class="section-divider">
-                    <h3><span class="half">&lt</span>videos<span class="half">&gt;</span>
+                    <h3><span class="half">&lt;</span>videos<span class="half">&gt;</span>
                     </h3>
                     </div>
 

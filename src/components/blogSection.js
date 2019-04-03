@@ -3,7 +3,7 @@ import React from 'react'
 const BlogSection = () => {
     return (<section class="blog-section">
                 <div class="section-divider">
-                    <h3><span class="half">&lt</span>blog<span class="half">&gt;</span></h3>
+                    <h3><span class="half">&lt;</span>blog<span class="half">&gt;</span></h3>
                     </div>
                     <div class="blog-grid">
                         <div class="blog-item">
