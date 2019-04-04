@@ -6,7 +6,7 @@ import Hero from "../components/hero"
 import CodeSection from "../components/codeSection"
 import BlogSection from "../components/blogSection"
 import VideoSection from "../components/videoSection"
-import ContactSection from '../components/facebookWidget'
+
 import SEO from "../components/shared/seo"
 
 class IndexPage extends Component {
@@ -27,7 +27,6 @@ class IndexPage extends Component {
               <CodeSection />
               <BlogSection />
               <VideoSection />
-              <ContactSection />
             </Layout>)
   }
 }

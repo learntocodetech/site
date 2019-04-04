@@ -31,8 +31,8 @@ const Layout = ({ children }) => (
           <Banner />
           <div className="container">
             <main>{children}</main>
-            <Footer />
           </div>
+          <Footer />
       </div>
         
     )}

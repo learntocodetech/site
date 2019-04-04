@@ -8,14 +8,14 @@ header {
   }
 
 nav {
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 nav a {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  margin-right: 15px;
+  margin-right: 25px;
   letter-spacing: 0.3px;
 }
 

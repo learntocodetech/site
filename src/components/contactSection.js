@@ -1,9 +1,13 @@
 import React from 'react'
 import FacebookWidget from './facebookWidget'
+import SectionDivider from './sectionDivider';
 
 
 const ContactSection = () => {
-    return FacebookWidget
+    return (<div>
+                <SectionDivider label="contact" />
+                <FacebookWidget />
+            </div>)
 }
 
 export default ContactSection
