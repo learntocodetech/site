@@ -1,4 +1,4 @@
-/* Hero */
+/* General Hero Styles */
 .hero {
     background: #19171c url("http://bit.ly/ltc-hero") no-repeat fixed center;
     height: 425px; /* Was 350 - Determine best sie for hero */
@@ -14,6 +14,8 @@
     align-items: center;
   }
   
+
+  /* Video Section Hero Styles */
   .hero .video-item {
     margin-right: 50px;
   }
@@ -30,3 +32,56 @@
     margin-top: -285px;
   }
   
+
+  /* Index Hero Styles */
+  .index-hero {
+    font-family: Allerta Stencil, sans-serif;
+  }
+
+  .index-hero__title {
+    font-family: inherit;
+    letter-spacing: 2px;
+  }
+
+  .index-hero .color {
+    color: #22a2dc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .index-hero .color:hover {
+    color: #4aafde;
+  }
+
+  .index-hero ul { 
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .index-hero li {
+    margin-top: 15px;
+    letter-spacing: 1px;
+  }
+
+  .index-hero li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-decoration: none;
+  }
+
+  .index-hero li a:hover {
+    color: #22a2dc;
+    text-decoration: underline;
+  }
+
+  .index-hero .bracket-bulletin {
+    color: #ffbd59;
+    margin-right: 15px;
+  }
+
+  .index-hero video {
+    height: inherit;
+    width: 100%;
+  }

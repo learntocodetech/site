@@ -2,10 +2,10 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/shared/layout"
-import Hero from "../components/hero"
 import CodeSection from "../components/codeSection"
 import BlogSection from "../components/blogSection"
 import VideoSection from "../components/videoSection"
+import IndexHero from "../components/indexHero"
 
 import SEO from "../components/shared/seo"
 
@@ -23,10 +23,10 @@ class IndexPage extends Component {
   render() {
     return (<Layout>
               <SEO title="Learn to Code Tech" keywords={[`gatsby`, `application`, `react`]} />
-              <Hero />
-              <CodeSection />
-              <BlogSection />
+              <IndexHero />
               <VideoSection />
+              <BlogSection />
+              <CodeSection />
             </Layout>)
   }
 }

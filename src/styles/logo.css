@@ -1,10 +1,10 @@
 .logo {
-    margin-left: 100px;
+    margin-left: 15px;
     font-size: 19px;
-    letter-spacing: 0.3px;
     letter-spacing: 0.2px;
 }
-  
+
+
 .logo .tech {
     border: 2px solid #fff;
     color: #22a2dc;
@@ -12,4 +12,10 @@
     margin-left: 2px;
     padding: 2px;
     letter-spacing: 0.5px;
+}
+
+@media(min-width: 420px) {
+    .logo {
+        margin-left: 100px;
+    }
 }
