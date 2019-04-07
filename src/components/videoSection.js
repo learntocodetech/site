@@ -3,7 +3,7 @@ import SectionDivider from './sectionDivider'
 
 const VideoSection = () => {
     return (<section className="video-section">
-                <SectionDivider label="videos" />
+                <SectionDivider label="Videos" />
                 <div className="video-grid">
                     <div className="video-item">
                         <img src="https://img.youtube.com/vi/Yh7yOxy1ngw/hqdefault.jpg" />

@@ -3,7 +3,7 @@ import SectionDivider from './sectionDivider'
 
 const BlogSection = () => {
     return (<section className="blog-section">
-                <SectionDivider label="blog" />
+                <SectionDivider label="Guides" />
                 <div className="blog-grid">
                     <div className="blog-item">
                         <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png" />

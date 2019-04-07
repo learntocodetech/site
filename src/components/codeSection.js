@@ -3,7 +3,7 @@ import SectionDivider from './sectionDivider'
 
 const CodeSection = () => {
     return (<section class="code-section">
-                <SectionDivider label="code" />
+                <SectionDivider label="Apps" />
 
                 <div class="code-grid">
                     <div class="code-item">

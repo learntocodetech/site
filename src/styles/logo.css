@@ -1,5 +1,4 @@
 .logo {
-    margin-left: 15px;
     font-size: 19px;
     letter-spacing: 0.2px;
 }
@@ -12,10 +11,4 @@
     margin-left: 2px;
     padding: 2px;
     letter-spacing: 0.5px;
-}
-
-@media(min-width: 420px) {
-    .logo {
-        margin-left: 100px;
-    }
 }
