@@ -1,5 +1,5 @@
 .logo {
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 0.2px;
 }
 
@@ -7,8 +7,21 @@
 .logo .tech {
     border: 2px solid #fff;
     color: #22a2dc;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 2px;
     padding: 2px;
     letter-spacing: 0.5px;
+}
+
+
+/* Above mobile */
+
+@media(min-width: 420px) {
+    .logo {
+        font-size: 19px;
+    }
+
+    .logo .tech {
+        font-size: 20px;
+    }
 }

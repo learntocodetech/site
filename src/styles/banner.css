@@ -12,5 +12,11 @@
 
   .sub-title {
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  @media(min-width: 420px) {
+    .sub-title {
+      font-size: 15px;
+    }
   }

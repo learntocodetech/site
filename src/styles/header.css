@@ -1,25 +1,18 @@
+/* Mobile header styles */
 header {
+    font-family: "Allerta Stencil", sans-serif;
     background: #000;
     height: 50px;
-    font-family: "Allerta Stencil", sans-serif;
   }
 
-
-  .header-container {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding-top: 10px;
-  }
-
-/* @media(min-width: 420px) {
-  header {
-    height: 50px;
-  }
-} */
-
+.header-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
 
 
 nav a {
@@ -31,4 +24,13 @@ nav a {
 
 nav a:hover {
   color: #22a2dc;
+}
+
+
+/* Above mobile */
+
+@media(min-width: 420px) {
+  .header-container {
+    padding: 10px 0;
+  }
 }

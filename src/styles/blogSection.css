@@ -12,7 +12,9 @@
 .guide-section__content__copy {
   order: 1;
   padding: 15px;
-  background: #19171c;
+  background: #19171c url('../images/new-hero.png') fixed no-repeat right;
+  background-position-x: 50%;
+  /* background-size: cover; */
 }
 
 .guide-section__content__copy .copy__title {
