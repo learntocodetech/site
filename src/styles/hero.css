@@ -1,6 +1,6 @@
 /* General Hero Styles */
 .hero {
-    background: #19171c url("http://bit.ly/ltc-hero") no-repeat fixed center;
+    background: #19171c url("../images/new-hero.png") no-repeat fixed center;
     height: 425px; /* Was 350 - Determine best sie for hero */
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
     background-size: contain;

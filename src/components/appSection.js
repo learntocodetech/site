@@ -1,8 +1,8 @@
 import React from 'react'
 import SectionDivider from './sectionDivider'
 
-const CodeSection = () => {
-    return (<section class="app-section">
+const AppSection = () => {
+    return (<section className="app-section">
                 <SectionDivider label="Apps" />
                 <div className="app-section__content">
                     <div className="app-grid">
@@ -26,4 +26,4 @@ const CodeSection = () => {
             </section>)
 }
 
-export default CodeSection
+export default AppSection

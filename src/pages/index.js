@@ -2,9 +2,10 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/shared/layout"
-import CodeSection from "../components/codeSection"
-import BlogSection from "../components/blogSection"
+import AppSection from "../components/appSection"
+import GuideSection from "../components/guideSection"
 import VideoSection from "../components/videoSection"
+import PathSection from "../components/pathSection"
 import IndexHero from "../components/indexHero"
 
 import SEO from "../components/shared/seo"
@@ -25,8 +26,9 @@ class IndexPage extends Component {
               <SEO title="Learn to Code Tech" keywords={[`gatsby`, `application`, `react`]} />
               <IndexHero />
               <VideoSection />
-              <BlogSection />
-              <CodeSection />
+              <GuideSection />
+              <AppSection />
+              <PathSection />
             </Layout>)
   }
 }

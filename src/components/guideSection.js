@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionDivider from './sectionDivider'
 
-const BlogSection = () => {
+const GuideSection = () => {
     return (<section className="guide-section">
                 <SectionDivider label="Guides" />
                 <div className="guide-section__content">
@@ -31,4 +31,4 @@ const BlogSection = () => {
             </section>)
 }
 
-export default BlogSection
+export default GuideSection
