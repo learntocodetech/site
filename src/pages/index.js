@@ -5,7 +5,6 @@ import Layout from "../components/shared/layout"
 import AppSection from "../components/appSection"
 import GuideSection from "../components/guideSection"
 import VideoSection from "../components/videoSection"
-import PathSection from "../components/pathSection"
 import IndexHero from "../components/indexHero"
 
 import SEO from "../components/shared/seo"
@@ -28,7 +27,6 @@ class IndexPage extends Component {
               <VideoSection />
               <GuideSection />
               <AppSection />
-              <PathSection />
             </Layout>)
   }
 }

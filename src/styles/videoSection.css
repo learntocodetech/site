@@ -1,4 +1,5 @@
 .video-section__content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: grid;
     grid-template-columns: 50% 50%;
     color: #fff;
@@ -6,8 +7,8 @@
 
 
 .video-section__copy {
-    background: #19171c url('../images/hero-bots.png') no-repeat fixed right;    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #19171c url('../images/hero-bots.png') no-repeat right;
+    background-size: cover;   
 }
 
 .video-section__copy .copy__title {
