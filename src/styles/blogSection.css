@@ -1,9 +1,25 @@
-.blog-grid {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-.blog-item img {
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    order: 2;
+}
+
+.guide-section__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.guide-section__content__copy {
+  order: 1;
+  padding: 15px;
+  background: #19171c;
+}
+
+.guide-section__content__copy .copy__title {
+  text-align: center;
+}
+
+.guide-item img {
   border: 1px solid #000;
   max-width: 300px;
   box-shadow: 0 0 2px 0px;

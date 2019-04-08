@@ -1,9 +1,25 @@
-.code-grid {
-    display: flex;
-    justify-content: space-between;
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.code-item img {
+
+.app-item img {
   border: 1px solid #000;
   box-shadow: 0 0 2px 0px;
+}
+
+
+.app-section__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.app-section__content__copy {
+  background: #19171c;
+  padding: 15px;
+}
+
+.app-section__content__copy .copy__title {
+  text-align: center;
 }
