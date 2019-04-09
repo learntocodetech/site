@@ -33,6 +33,10 @@ body {
   margin-bottom: 5px;
 }
 
+.section-divider h3 {
+  font-size: 20px;
+}
+
 .section-divider h3:hover {
   color: #ffbd59;
   cursor: pointer;
@@ -40,6 +44,11 @@ body {
 
 .half {
   color: #ffbd59;
+}
+
+.bracket-bulletin {
+  color: #ffbd59;
+  font-weight: 700;
 }
 
 .code-item:hover,
@@ -51,4 +60,8 @@ body {
 .code-item img {
   border: 1px solid #000;
   box-shadow: 0 0 2px 0px;
+}
+
+h3.copy-title {
+  font-family: Allerta Stenvil sans-serif;
 }

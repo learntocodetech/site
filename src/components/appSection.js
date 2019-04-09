@@ -20,7 +20,7 @@ const AppSection = () => {
                         </div>
                     </div>
                     <div className="app-section__content__copy">
-                        <h3 className="copy__title">Create real world Apps, no more ToDo Apps.</h3>
+                        <h3 className="copy__title">5+ Real World Apps</h3>
                     </div>
                 </div>
             </section>)

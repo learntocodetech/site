@@ -22,7 +22,7 @@ const GuideSection = () => {
                     </div>
 
                     <div className="guide-section__content__copy">
-                        <h3 className="copy__title">Read dozens of Guides and Tutorials</h3>
+                        <h3 className="copy__title">25+ Guides and Tutorials</h3>
                     </div>
                 </div>
 
