@@ -6,10 +6,9 @@
 }
 
 .video-section__copy {
-    background: #19171c url('../images/hero-bots.png') no-repeat right;
+    background: #19171c url('../images/new-hero.png') no-repeat right;
     background-size: cover;   
     text-align: justify;
-
 }
 
 .video-section__copy .copy__description {
@@ -49,4 +48,18 @@
 .video-section .bracket-bulletin {
     font-size: 20px;
     margin-right: 15px;
+}
+
+.video-section__btn {
+    text-align: center;
+}
+
+.video-section__btn input {
+    background: #22a2dc;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
 }

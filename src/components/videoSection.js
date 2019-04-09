@@ -29,17 +29,26 @@ const VideoSection = () => {
                         <ul className="copy__feature-list">
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Coding Challenges.</a>
+                                <a href="#">React + Redux</a>
                             </li>
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">React and Redux</a>
+                                <a href="#">Python + Django</a>
+                            </li>
+                            
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">Data Structures + Algorthms</a>
                             </li>
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                
+                                <a href="#">Coding Challenges + Real Apps</a>
                             </li>
+                            
                         </ul>
+                        <div className="video-section__btn">
+                            <input type="button" value="Watch" />
+                        </div>
                     </div>
                 </div>
                 
