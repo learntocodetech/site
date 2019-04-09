@@ -6,7 +6,8 @@
 }
 
 .video-section__copy {
-    background: #19171c url('../images/new-hero.png') no-repeat right;
+    /* background: #19171c url('../images/new-hero.png') no-repeat right; */
+    background: #19171c;
     background-size: cover;   
     text-align: justify;
 }

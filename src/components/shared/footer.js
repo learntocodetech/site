@@ -5,7 +5,7 @@ const Footer = () => {
                 <h3>
                     <span className="half">&lt;</span>
                         Made with <img className="footer__heart-icon" src="https://cdn4.iconfinder.com/data/icons/artificial-intelligence-fill-outline/64/64_heart-gear-metal-robot-ai-512.png" />in NYC
-                    <span className="half">/&gt;</span>
+                    <span className="half"> /&gt;</span>
                 </h3>
             </footer>)
 }
