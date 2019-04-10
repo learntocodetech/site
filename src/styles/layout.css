@@ -10,6 +10,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 article,
 aside,
@@ -338,6 +339,7 @@ ul {
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
+  list-style-type: none;
   list-style-image: none;
 }
 ol {

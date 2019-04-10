@@ -2,7 +2,7 @@ import React from 'react'
 import SectionDivider from './sectionDivider'
 
 const AppSection = () => {
-    return (<section className="app-section">
+    return (<section className="app-section feature-section">
                 <SectionDivider label="Apps" />
                 <div className="app-section__content">
                     <div className="app-grid">

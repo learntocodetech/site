@@ -65,3 +65,7 @@ body {
 h3.copy-title {
   font-family: Allerta Stenvil sans-serif;
 }
+
+.feature-section .copy__title {
+  padding: 15px;
+}

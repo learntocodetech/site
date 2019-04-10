@@ -2,7 +2,7 @@ import React from 'react'
 import SectionDivider from './sectionDivider'
 
 const VideoSection = () => {
-    return (<section className="video-section">
+    return (<section className="video-section feature-section">
                 <SectionDivider label="Videos" />
                 <div className="video-section__content">
                     <div className="video-grid">
@@ -35,10 +35,13 @@ const VideoSection = () => {
                                 <span className="bracket-bulletin">{"{}"}</span>
                                 <a href="#">Python + Django</a>
                             </li>
-                            
+                            {/* <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">SQL + Databases</a>
+                            </li> */}
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Data Structures + Algorthms</a>
+                                <a href="#">Data Structures + Algorithms</a>
                             </li>
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>

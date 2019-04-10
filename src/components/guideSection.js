@@ -2,7 +2,7 @@ import React from 'react'
 import SectionDivider from './sectionDivider'
 
 const GuideSection = () => {
-    return (<section className="guide-section">
+    return (<section className="guide-section feature-section">
                 <SectionDivider label="Guides" />
                 <div className="guide-section__content">
                     <div className="guide-grid">
@@ -23,6 +23,35 @@ const GuideSection = () => {
 
                     <div className="guide-section__content__copy">
                         <h3 className="copy__title">25+ Guides and Tutorials</h3>
+                        <p className="copy__description">Read well written and concise programming tutorials:</p>
+                        <ul className="copy__feature-list">
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">React + Redux</a>
+                            </li>
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">Python + Django</a>
+                            </li>
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">SQL + Databases</a>
+                            </li>
+                            
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">Data Structures + Algorthms</a>
+                            </li>
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">Coding Challenges + Real Apps</a>
+                            </li>
+                            
+                            
+                        </ul>
+                        <div className="guide-section__btn section__btn">
+                            <input type="button" value="Watch" />
+                        </div>
                     </div>
                 </div>
 

@@ -17,7 +17,6 @@
 }
 
 .video-section__copy .copy__title {
-    padding: 15px;
     text-align: center;
 }
 
@@ -27,6 +26,10 @@
     margin-top: 20px;
 }
 
+.video-section__copy .copy__feature-list li {
+    margin-bottom: 25px;
+    /* letter-spacing: 1px; */
+}
 .copy__feature-list a {
     text-decoration: none;
 }
@@ -63,4 +66,8 @@
     width: 100px;
     height: 30px;
     cursor: pointer;
+}
+
+.video-section__btn input:hover {
+    background: #4aafde;
 }
