@@ -22,10 +22,10 @@ class IndexPage extends Component {
 
   render() {
     return (<Layout>
-              <SEO 
-                title="Learn to Code Tech" 
-                description="Learn to code in Python and JavaScript while developing Real World Apps."
-                keywords={[`gatsby`, `application`, `react`]} 
+              <SEO
+                title="Learn to Code Tech"
+                description="Learn to Code for free while developing real world applications using Python and JavaScript."
+                keywords={[`learn to code`, `python`, `javascript`]} 
               />
               <IndexHero />
               <VideoSection />
