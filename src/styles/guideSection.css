@@ -47,3 +47,19 @@
 .guide-section .bracket-bulletin {
   margin-right: 15px;
 }
+
+
+.guide-item {
+  opacity: 0.9;
+  transform: scale(0.8);
+  cursor: pointer;
+  -webkit-transition: opacity,-webkit-transform .4s;
+  transition: opacity,-webkit-transform .4s;
+  transition: opacity,transform .4s;
+  transition: opacity,transform .4s,-webkit-transform .4s;
+}
+
+.guide-item:hover {
+  opacity: 1;
+  transform: scale(1);
+}
