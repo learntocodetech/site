@@ -49,7 +49,7 @@ const VideoSection = () => {
                             </li>
                             
                         </ul>
-                        <div className="video-section__btn">
+                        <div className="video-section__btn feature-section__btn">
                             <input type="button" value="Watch" />
                         </div>
                     </div>

@@ -22,13 +22,28 @@
   text-align: center;
 }
 
+.guide-section .copy__feature-list {
+  margin-top: 50px;
+  /* text-align: center; */
+}
+
+.guide-section .copy__feature-list li {
+  margin-bottom: 20px;
+}
 .guide-item img {
   border: 1px solid #000;
   /* max-width: 300px; */
   box-shadow: 0 0 2px 0px;
 }
 
+.guide-section__btn {
+  text-align: center;
+}
 
 .guide-section .copy__description {
   text-align: center;
+}
+
+.guide-section .bracket-bulletin {
+  margin-right: 15px;
 }

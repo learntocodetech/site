@@ -22,35 +22,40 @@ const GuideSection = () => {
                     </div>
 
                     <div className="guide-section__content__copy">
-                        <h3 className="copy__title">25+ Guides and Tutorials</h3>
-                        <p className="copy__description">Read well written and concise programming tutorials:</p>
+                        <h3 className="copy__title">100+ Guides and Tutorials</h3>
+                        <p className="copy__description">Read well written, concise, and up to date programming tutorials:</p>
                         <ul className="copy__feature-list">
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">React + Redux</a>
+                                <a href="#">The Python Guide</a>
                             </li>
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Python + Django</a>
+                                <a href="#">The JavaScript Guide</a>
                             </li>
+                        
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">SQL + Databases</a>
+                                <a href="#">The API Design Guide</a>
                             </li>
-                            
+
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Data Structures + Algorthms</a>
+                                <a href="#">The Database Guide</a>
                             </li>
+
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Coding Challenges + Real Apps</a>
+                                <a href="#">The Front-End Optimization Guide</a>
                             </li>
                             
                             
                         </ul>
-                        <div className="guide-section__btn section__btn">
-                            <input type="button" value="Watch" />
+                        <p className="">
+                            
+                        </p>
+                        <div className="guide-section__btn feature-section__btn">
+                            <input type="button" value="Read" />
                         </div>
                     </div>
                 </div>
