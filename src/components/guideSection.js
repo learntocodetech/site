@@ -27,6 +27,11 @@ const GuideSection = () => {
                         <ul className="copy__feature-list">
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
+                                <a href="#">The Internet Guide</a>
+                            </li>
+
+                            <li>
+                                <span className="bracket-bulletin">{"{}"}</span>
                                 <a href="#">The Python Guide</a>
                             </li>
                             <li>
@@ -36,18 +41,16 @@ const GuideSection = () => {
                         
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">The API Design Guide</a>
+                                <a href="#">API Design: From Rest to GraphQL</a>
                             </li>
 
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">The Database Guide</a>
+                                <a href="#">Databases: Relational + GraphQL</a>
                             </li>
 
-                            <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">The Front-End Optimization Guide</a>
-                            </li>
+                            
+                            
                             
                             
                         </ul>

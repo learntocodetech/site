@@ -43,9 +43,13 @@
     grid-template-columns: 50% 50%;
 }
   
+
+.video-section .video-item {
+    max-width: 320px;
+}
+
 .video-section .video-item img {
     border: 1px solid #000;
-    max-width: 300px;
 }
 
 .video-section .bracket-bulletin {
