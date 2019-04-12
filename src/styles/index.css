@@ -67,14 +67,23 @@ h3.copy-title {
   font-family: Allerta Stenvil sans-serif;
 }
 
+
+
+.feature-section {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .feature-section .copy__title {
   padding: 15px;
   font-family: Allerta Stencil;
   color: #ffbd59;
+  font-size: 28px;
 }
 
 .feature-section .copy__feature-list {
   font-size: 21px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .feature-section__btn input {
@@ -91,3 +100,11 @@ h3.copy-title {
 .feature-section__btn input:hover {
   background: #4aafde;
 }
+
+
+.feature-section .copy__description {
+  font-size: 23px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+

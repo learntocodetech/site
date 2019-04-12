@@ -25,7 +25,7 @@ const VideoSection = () => {
 
                     <div className="video-section__copy">
                         <h3 className="copy__title">100+ Videos</h3>
-                        <p className="copy__description">Watch high quality programming videos on:</p>
+                        <p className="copy__description">Watch high quality programming videos.</p>
                         <ul className="copy__feature-list">
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>

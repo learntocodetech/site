@@ -23,7 +23,7 @@ const GuideSection = () => {
 
                     <div className="guide-section__content__copy">
                         <h3 className="copy__title">100+ Guides and Tutorials</h3>
-                        <p className="copy__description">Read well written, concise, and up to date programming tutorials.</p>
+                        <p className="copy__description">Read concise and up to date programming tutorials.</p>
                         <ul className="copy__feature-list">
                             <li>
                                 <span className="bracket-bulletin">{"{}"}</span>
