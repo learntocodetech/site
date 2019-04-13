@@ -2,7 +2,8 @@
 
 /* General Hero Styles */
 .hero {
-    background: #19171c url("../images/new-hero.png") no-repeat fixed center;
+    /* background: #19171c url("../images/new-hero.png") no-repeat fixed center; */
+    background: #424142;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen;
     height: 425px; /* Was 350 - Determine best sie for hero */
   }
