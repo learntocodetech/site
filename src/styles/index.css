@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 5px;
   padding: 0;
@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 75px;
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -92,9 +92,10 @@ h3.copy-title {
   border-radius: 3px;
   color: #fff;
   width: 100px;
-  height: 35px;
+  height: 40px;
   cursor: pointer;
   font-family: Allerta Stencil;
+  transition: background 0.2s;
 }
 
 .feature-section__btn input:hover {
