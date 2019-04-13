@@ -18,12 +18,11 @@ body {
   margin: 0 auto;
   margin-bottom: 5px;
   padding: 0;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .section-divider {
   color: #22a2dc;
-  font-family: "Allerta Stencil", sans-serif;
   background: #000;
   text-align: center;
   display: flex;
@@ -35,7 +34,9 @@ body {
 }
 
 .section-divider h3 {
-  font-size: 20px;
+  font-size: 28px;
+  font-family: "Allerta Stencil", sans-serif;
+  transition: ease 0.3s;
 }
 
 .section-divider h3:hover {
@@ -77,13 +78,16 @@ h3.copy-title {
   padding: 15px;
   font-family: Allerta Stencil;
   color: #ffbd59;
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .feature-section .copy__feature-list {
   font-size: 21px;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 2;
 }
 
 .feature-section__btn input {
@@ -91,7 +95,7 @@ h3.copy-title {
   border: none;
   border-radius: 3px;
   color: #fff;
-  width: 100px;
+  width: 120px;
   height: 40px;
   cursor: pointer;
   font-family: Allerta Stencil;
