@@ -30,7 +30,7 @@ class IndexPage extends Component {
               <IndexHero />
               <VideoSection />
               <GuideSection />
-              <AppSection />
+              {/* <AppSection /> */}
             </Layout>)
   }
 }
