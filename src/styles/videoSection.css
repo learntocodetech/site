@@ -1,11 +1,11 @@
 .video-section__content {
     display: grid;
     grid-template-columns: 50% 50%;
-    color: #fff;
+    color: #000;
 }
 
 .video-section__copy {
-    background: #424142;
+    background: #f9f9f9;
     background-size: cover;   
     text-align: justify;
 }
@@ -30,6 +30,7 @@
 }
 .copy__feature-list a {
     text-decoration: none;
+    color: #000;
 }
 
 .copy__feature-list a:hover {

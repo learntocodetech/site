@@ -49,7 +49,7 @@ body {
 }
 
 .bracket-bulletin {
-  color: #ffbd59;
+  color: #22a2dc;
   font-weight: 700;
 }
 
@@ -74,11 +74,17 @@ h3.copy-title {
   font-family: 'Open Sans', sans-serif;
 }
 
+.feature-section .section__copy {
+  color: #000;
+  border: 1px solid #19171c;
+}
+
 .feature-section .copy__title {
   padding: 15px;
   font-family: Allerta Stencil;
   color: #ffbd59;
-  font-size: 27px;
+  font-size: 26px;
+  background: #000;
 }
 
 .feature-section .copy__feature-list {

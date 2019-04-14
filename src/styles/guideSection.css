@@ -11,10 +11,8 @@
 
 .guide-section__content__copy {
   order: 1;
-  padding: 15px;
-  background: #424142;
+  background: #f9f9f9;
   background-position-x: 50%;
-  /* background-size: cover; */
 }
 
 .guide-section__content__copy .copy__title {

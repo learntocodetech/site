@@ -21,7 +21,7 @@ const GuideSection = () => {
                         </div>
                     </div>
 
-                    <div className="guide-section__content__copy">
+                    <div className="guide-section__content__copy section__copy">
                         <h3 className="copy__title">100+ Guides and Tutorials</h3>
                         <p className="copy__description">Read concise and up to date programming tutorials.</p>
                         <ul className="copy__feature-list">

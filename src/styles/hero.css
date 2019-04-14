@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans|Open+Sans+Condensed:300|Orbitron|Roboto|Roboto+Mono');
+
 
 /* General Hero Styles */
 .hero {
-    /* background: #19171c url("../images/new-hero.png") no-repeat fixed center; */
-    background: #424142;
+    /* background: #f9f9f9 url("../images/white-bot.png") no-repeat fixed center; */
+    background: #19171c url('../images//new-hero.png') no-repeat fixed 50%;
     font-family: 'Open Sans', sans-serif;
     height: 500px;
+    color: #fff;
   }
   
-
 .hero-content {
   height: inherit;
   display: flex;

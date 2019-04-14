@@ -23,7 +23,7 @@ const VideoSection = () => {
                         </div>
                     </div>
 
-                    <div className="video-section__copy">
+                    <div className="video-section__copy section__copy">
                         <h3 className="copy__title">100+ Videos</h3>
                         <p className="copy__description">Watch high quality programming videos.</p>
                         <ul className="copy__feature-list">
