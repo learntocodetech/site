@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         )
         .concat(meta)}
     >
-      <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Allerta|Allerta+Stencil|Open+Sans" rel="stylesheet"></link>
     </Helmet>
   )
 }
