@@ -91,7 +91,7 @@ h3.copy-title {
   font-size: 21px;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 2;
 }
@@ -105,17 +105,18 @@ h3.copy-title {
   height: 40px;
   cursor: pointer;
   font-family: Allerta Stencil;
-  transition: background 0.2s;
+  transition: ease 0.3s;
 }
 
 .feature-section__btn input:hover {
   background: #4aafde;
+  background:#1d8fc3;
 }
 
 
 .feature-section .copy__description {
   font-size: 23px;
-  margin-top: 5px;
-  font-weight: 500;
+  margin-top: 20px;
+  font-weight: 700;
 }
 
