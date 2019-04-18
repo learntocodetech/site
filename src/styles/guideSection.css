@@ -48,7 +48,7 @@
 
 .guide-item {
   opacity: 0.9;
-  transform: scale(0.9);
+  transform: scale(0.95);
   cursor: pointer;
   -webkit-transition: opacity,-webkit-transform .4s;
   transition: opacity,-webkit-transform .4s;

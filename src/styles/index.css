@@ -22,7 +22,7 @@ body {
 }
 
 .section-divider {
-  color: #22a2dc;
+  color: #62aed9;
   background: #000;
   text-align: center;
   display: flex;
@@ -40,7 +40,7 @@ body {
 }
 
 .section-divider h3:hover {
-  color: #ffbd59;
+  color: #0086c2;
   cursor: pointer;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .bracket-bulletin {
-  color: #22a2dc;
+  color: #62aed9;
   font-weight: 700;
 }
 
@@ -83,6 +83,7 @@ h3.copy-title {
   padding: 15px;
   font-family: Allerta Stencil;
   color: #ffbd59;
+  color: #fff;
   font-size: 26px;
   background: #000;
 }
@@ -101,7 +102,7 @@ h3.copy-title {
 }
 
 .feature-section__btn input {
-  background: #22a2dc;
+  background: #0086c2;
   border: none;
   border-radius: 3px;
   color: #fff;
@@ -113,8 +114,7 @@ h3.copy-title {
 }
 
 .feature-section__btn input:hover {
-  background: #4aafde;
-  background:#1d8fc3;
+  background:#62aed9;
 }
 
 
@@ -124,3 +124,12 @@ h3.copy-title {
   font-weight: 700;
 }
 
+.copy__feature-list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.copy__feature-list a:hover {
+  text-decoration: underline;
+  color: #0086c2;
+}

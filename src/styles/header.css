@@ -23,8 +23,12 @@ nav a {
   transition: ease .3s;
 }
 
+nav a:not(:last-child) {
+  margin-right: 20px;
+}
+
 nav a:hover {
-  color: #22a2dc;
+  color: #0086c2;
 }
 
 

@@ -55,7 +55,7 @@
 }
 
 .index-hero__market-title a {
-  color: #22a2dc;
+  color: #62aed9;
   text-decoration: underline;
   cursor: pointer;
   font-size: 28px;
@@ -67,13 +67,14 @@
 }
 
 .index-hero .color {
-  color: #22a2dc;
+  color: #62aed9;
   text-decoration: underline;
   cursor: pointer;
+  transition: ease 0.3s;
 }
 
 .index-hero .color:hover {
-  color: #4aafde;
+  color: #0086c2;
 }
 
 .index-hero ul { 
