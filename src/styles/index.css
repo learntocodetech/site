@@ -76,7 +76,6 @@ h3.copy-title {
 
 .feature-section .section__copy {
   color: #000;
-  border: 1px solid #19171c;
 }
 
 .feature-section .copy__title {
@@ -86,6 +85,7 @@ h3.copy-title {
   color: #fff;
   font-size: 26px;
   background: #000;
+  border-radius: 6px;
 }
 
 .feature-section .copy__feature-list {

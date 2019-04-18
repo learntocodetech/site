@@ -29,7 +29,7 @@
 }
 .guide-item img {
   border: 1px solid #000;
-  /* max-width: 300px; */
+  border-radius: 6px;
   box-shadow: 0 0 2px 0px;
 }
 
@@ -47,8 +47,8 @@
 
 
 .guide-item {
-  opacity: 0.9;
-  transform: scale(0.95);
+  opacity: 0.95;
+  transform: scale(0.90);
   cursor: pointer;
   -webkit-transition: opacity,-webkit-transform .4s;
   transition: opacity,-webkit-transform .4s;
@@ -60,3 +60,4 @@
   opacity: 1;
   transform: scale(1);
 }
+
