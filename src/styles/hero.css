@@ -2,16 +2,17 @@
 
 /* General Hero Styles */
 .hero {
-    background: #142844;
+    background: #142844 url('../images/hero.jpg') no-repeat 50%;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    height: 500px;
+    height: 600px;
     color: #fff;
   }
   
 .hero-content {
   height: inherit;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-basis: fit-content;
   align-items: center;
 }

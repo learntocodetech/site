@@ -22,19 +22,18 @@ body {
 }
 
 .section-divider {
-  color: #62aed9;
-  background: #000;
+  color: #0086c2;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 75px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section-divider h3 {
-  font-size: 28px;
+  font-size: 36px;
   font-family: "Allerta Stencil", sans-serif;
   transition: ease 0.3s;
 }

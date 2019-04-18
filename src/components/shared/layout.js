@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Hero from '../indexHero';
 import Banner from '../banner'
 import Footer from './footer'
 import "../../styles/index.css"
@@ -28,6 +29,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div>
           <Header siteTitle={data.site.siteMetadata.title} />
+          <Hero />
           <Banner />
           <div className="container">
             <main>{children}</main>

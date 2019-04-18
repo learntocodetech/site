@@ -27,7 +27,6 @@ class IndexPage extends Component {
                 description="Learn to Code for free while developing real world applications using Python and JavaScript."
                 keywords={[`learn to code`, `python`, `javascript`]} 
               />
-              <IndexHero />
               <VideoSection />
               <GuideSection />
             </Layout>)
