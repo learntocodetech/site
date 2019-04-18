@@ -4,6 +4,7 @@ const SectionDivider = props => {
     return (<div className="section-divider">
                 {/* <h3><span className="half">&lt;</span>{props.children}<span className="half">&gt;</span></h3> */}
                 <h3>{props.children}</h3>
+                <div className="lines"></div>
 
             </div>)
 }

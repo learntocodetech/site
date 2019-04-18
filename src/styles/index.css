@@ -30,17 +30,26 @@ body {
   height: 75px;
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .section-divider h3 {
   font-size: 36px;
   font-family: "Allerta Stencil", sans-serif;
   transition: ease 0.3s;
+  background: #fff;
 }
 
 .section-divider h3:hover {
   color: #0086c2;
   cursor: pointer;
+}
+
+.lines {
+  position: absolute;
+  width: 100%;
+  border: 1px inset #0086c2;
+  z-index: -1;
 }
 
 .half {
@@ -132,3 +141,4 @@ h3.copy-title {
   text-decoration: underline;
   color: #0086c2;
 }
+

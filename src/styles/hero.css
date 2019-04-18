@@ -4,6 +4,7 @@
 .hero {
     background: #142844 url('../images/hero.jpg') no-repeat 50%;
     background-size: cover;
+    background-position: top;
     font-family: 'Open Sans', sans-serif;
     height: 600px;
     color: #fff;
@@ -12,9 +13,9 @@
 .hero-content {
   height: inherit;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-basis: fit-content;
-  align-items: center;
+  /* align-items: center; */
 }
 
 /* Video Section Hero Styles */
@@ -45,6 +46,7 @@
   font-size: 35px;
   text-align: center;
   line-height: 1.3;
+  margin-top: 50px;
 }
 
 .index-hero__market-title {
@@ -68,7 +70,7 @@
 }
 
 .index-hero .color {
-  color: #62aed9;
+  color: #0086c2;;
   text-decoration: underline;
   cursor: pointer;
   transition: ease 0.3s;
