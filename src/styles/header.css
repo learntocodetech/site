@@ -3,6 +3,8 @@ header {
     font-family: "Allerta Stencil", sans-serif;
     background: #000;
     height: 50px;
+    border-bottom: 1px solid #fff;
+    background-position: 0 30%;
   }
 
 .header-container {
