@@ -96,6 +96,10 @@ h3.copy-title {
   line-height: 2;
 }
 
+.feature-section .bracket-bulletin {
+  font-size: 16px;
+}
+
 .feature-section__btn input {
   background: #22a2dc;
   border: none;
