@@ -29,8 +29,8 @@ const Layout = ({ children }) => (
     render={data => (
       <div>
           <Header siteTitle={data.site.siteMetadata.title} />
+          <Banner label="Code with the best." />
           <Hero />
-          <Banner />
           <div className="container">
             <main>{children}</main>
           </div>

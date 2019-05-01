@@ -2,14 +2,14 @@
 header {
     font-family: "Allerta Stencil", sans-serif;
     background: #000;
-    height: 50px;
+    height: 130px;
     border-bottom: 1px solid #fff;
     background-position: 0 30%;
   }
 
 .header-container {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
@@ -17,8 +17,32 @@ header {
 }
 
 
+
+.main-nav li {
+  padding: 10px 30px;
+  border-right: 1px solid #272525;
+  border-left: 1px solid #272525;
+  margin: 0 auto;
+}
+
+.main-nav li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nav__sections {
+  display: flex;
+  margin: 0;
+}
+
+.main-nav__sections img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
 nav a {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.5px;

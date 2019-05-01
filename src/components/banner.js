@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Banner = () => {
+const Banner = props => {
     return (<div className="banner">
                 <div className="sub-title">
-                    Code with the best.
+                    {props.label}
                 </div>
             </div>)
 }
+                    
 
 
 export default Banner
