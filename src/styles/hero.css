@@ -7,15 +7,13 @@
   background-position: top;
   font-family: 'Open Sans', sans-serif;
   min-height: 600px;
-  color: #fff;
+  color: #000;
 }
   
 .hero-content {
   height: inherit;
   display: flex;
-  /* justify-content: center; */
   flex-basis: fit-content;
-  /* align-items: center; */
 }
 
 /* Video Section Hero Styles */
@@ -39,8 +37,13 @@
 /* Index Hero Styles */
 .index-hero {
   font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 0 100%, 0 0);
+  width: 100%;
+  min-height: 700px;
+  background: #fff;
 }
-
 
 .index-hero__title {
   font-family: Allerta Stencil, sans-serif;
@@ -48,7 +51,7 @@
   font-size: 35px;
   text-align: center;
   line-height: 1.3;
-  margin-left: 400px;
+  margin-left: 50px;
   margin-top: 150px;
 }
 
