@@ -5,7 +5,10 @@ import JSIcon from '../images/javascript.svg'
 const IndexHero = () => {
     return (<Hero>
                 <div className="index-hero">
-                    <h1 className="index-hero__title">LEARN TO <span className="color">CODE</span> FOR FREE</h1>
+                    <h1 className="index-hero__title">
+                        <span className="color">Conquer</span> Algorithms<br/>
+                        Learn to <span className="color">Code</span>
+                    </h1>
                     {/* <img src={JSIcon} /> */}
                 </div>
             </Hero>)
