@@ -3,9 +3,11 @@ import React from "react"
 import Logo from '../../images/logo.svg'
 import VideoIcon from '../../images/video-camera.svg'
 import GuidesIcon from '../../images/text.svg'
-import SlidesIcon from '../../images/chart.svg'
+import SlidesIcon from '../../images/slider.svg'
 import ChatbotIcon from '../../images/ai.svg'
-import AppIcon from '../../images/mobile.svg'
+import BlogIcon from '../../images/rocket.svg'
+
+// import AppIcon from '../../images/mobile.svg'
 
 const Header = ({ siteTitle }) => 
   (<header>
@@ -40,17 +42,18 @@ const Header = ({ siteTitle }) =>
                 Chatbots
               </a>
             </li>
-  
             <li>
               <a href="#">
-              <img src={AppIcon} />
-
-                Apps
+              <img src={BlogIcon} />
+                Blog
               </a>
             </li>
 
             {/* <li>
-              <a href="#">Sign Up</a>
+              <a href="#">
+                <img src={PartnerIcon} />
+                 Hire Us
+              </a>
             </li> */}
           </ul>
         </nav>

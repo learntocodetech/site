@@ -5,3 +5,11 @@
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.footer .social-media-icons {
+    display: flex;
+}
+
+.footer .social-media-icons img {
+    width: 30px;
+}

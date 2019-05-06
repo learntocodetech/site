@@ -23,9 +23,9 @@ class IndexPage extends Component {
   render() {
     return (<Layout>
               <SEO
-                title="Learn to Code Tech"
-                description="Learn to Code for free while developing real world applications using Python and JavaScript."
-                keywords={[`learn to code`, `python`, `javascript`]} 
+                title="Conquer Algorithms & Make Amazing Chatbots"
+                description="Learn to Code by Building Amazing Chatbots in JavaScript and Python."
+                keywords={[`learn to code`, `python`, `javascript`, `chatbots`]} 
               />
               <VideoSection />
               <GuideSection />
