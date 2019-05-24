@@ -23,14 +23,12 @@ body {
 
 .section-divider {
   color: #0086c2;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 75px;
   margin-top: 50px;
   margin-bottom: 50px;
-  position: relative;
 }
 
 .section-divider h3 {

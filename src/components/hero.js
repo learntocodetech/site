@@ -7,11 +7,11 @@ const Hero = props => {
                 <div class="hero-content">
                     {props.children}
                 </div>
-                <div className="newsletter">
+                {/* <div className="newsletter">
                     <div className="slide-cards">
                         <img className="slide-card slideCard2" src={SlideCard2} />
                     </div>
-                </div>
+                </div> */}
             </div>)
 }
 

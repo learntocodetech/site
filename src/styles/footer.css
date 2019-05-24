@@ -2,14 +2,29 @@
 
 .footer {
     height: 500px;
+    position: relative;
+}
+
+p.made-with {
+    text-align: center;
+    font-size: 20px;
+    color: #0086c2;
+    font-family: Allerta Stencil;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 footer .section-divider {
     background: #000;
+    margin: 0;
 }
 
 footer .section-divider h3 {
     background: #000;
+    font-size: 21px;
+    margin: 0;
 }
 
 .footer-divider {
