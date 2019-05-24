@@ -1,5 +1,27 @@
 /* Footer */
 
+.footer {
+    height: 500px;
+}
+
+footer .section-divider {
+    background: #000;
+}
+
+footer .section-divider h3 {
+    background: #000;
+}
+
+.footer-divider {
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    background: #000;
+    width: 100%;
+    height: 100%;
+
+
+}
+
 .footer__heart-icon {
     max-width: 30px;
     vertical-align: middle;
@@ -12,4 +34,24 @@
 
 .footer .social-media-icons img {
     width: 30px;
+}
+
+
+.footer__logo img {
+    width: 300px;
+    margin-top: 225px;
+    margin-left: 50px;
+}
+
+.social-icon-list {
+    display: flex;
+    margin: 0;
+}
+
+.social-icon-list li {
+    margin-right: 10px;
+}
+
+.social-icon-list li img {
+    width: 25px;
 }

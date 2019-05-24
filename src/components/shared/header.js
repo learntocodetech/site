@@ -1,11 +1,11 @@
 import { Link } from "gatsby"
 import React from "react"
 import Logo from '../../images/logo.svg'
-import VideoIcon from '../../images/video-camera.svg'
-import GuidesIcon from '../../images/text.svg'
-import SlidesIcon from '../../images/slider.svg'
-import ChatbotIcon from '../../images/ai.svg'
-import BlogIcon from '../../images/rocket.svg'
+import VideoIcon from '../../images/pre-video-camera.svg'
+import GuidesIcon from '../../images/pre-text.svg'
+import SlidesIcon from '../../images/pre-sliders.svg'
+import ChatbotIcon from '../../images/pre-ai.svg'
+import BlogIcon from '../../images/pre-rocket.svg'
 
 // import AppIcon from '../../images/mobile.svg'
 

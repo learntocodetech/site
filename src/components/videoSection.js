@@ -26,37 +26,6 @@ const VideoSection = () => {
 
                         </div>
                     </div>
-
-                    <div className="video-section__copy section__copy">
-                        <h3 className="copy__title">50+ Videos</h3>
-                        <p className="copy__description">Watch high quality programming videos.</p>
-                        <ul className="copy__feature-list">
-                            <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">React + Redux</a>
-                            </li>
-                            <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Python + Django</a>
-                            </li>
-                            {/* <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">SQL + Databases</a>
-                            </li> */}
-                            <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Data Structures + Algorithms</a>
-                            </li>
-                            <li>
-                                <span className="bracket-bulletin">{"{}"}</span>
-                                <a href="#">Coding Challenges + Real Apps</a>
-                            </li>
-                            
-                        </ul>
-                        <div className="video-section__btn feature-section__btn">
-                            <input type="button" value="Watch" />
-                        </div>
-                    </div>
                 </div>
                 
             </section>)

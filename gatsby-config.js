@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.learntocode.tech`,
     description:"Learn to Code for free while developing real world applications using Python and JavaScript.",
-    title: `LTC Tech`,
+    title: `Code With The Best`,
     author: `@sirlemuel`,
   },
   plugins: [

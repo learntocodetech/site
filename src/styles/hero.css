@@ -3,13 +3,127 @@
 /* General Hero Styles */
 .hero {
   background: #000;
-  background-size: cover;
-  background-position: top;
   font-family: 'Open Sans', sans-serif;
   min-height: 800px;
   color: #000;
 }
-  
+
+.slide-cards {
+  position: relative;
+}
+.slide-card {
+  width: 350px;
+  position: absolute;
+  right: 200px;
+  bottom: 0px;
+  box-shadow: 2px 0px 12px 6px rgb(0,63,138);
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@keyframes jigsaw {
+  from { box-shadow: none }
+  to { box-shadow: 2px 0px 12px 6px rgb(0,63,138);}
+}
+/* .jigsaw {
+  width: 12em;
+  height: 8em;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  cursor: pointer;
+  right: 200px;
+  bottom: 100px;
+  text-align: center;
+  animation-name: jigsaw;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.jigsaw-text {
+  font-family: Allerta Stencil;
+  font-size: 25px;
+
+}
+
+.jigsaw,
+.jigsaw span {
+ background-color: #fff; 
+}
+
+.text {
+  display: block;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1.9em 0 0 1.2em;
+  position: relative;
+  background: transparent !important;
+}
+
+.jigsaw .t {
+  width: 2em;
+   height: 2em;
+   position: absolute;
+   top: -1.5em;
+   left: 2em;
+   -webkit-border-radius: 4em;
+   -moz-border-radius: 4em;
+   border-radius: 4em;
+ }
+ 
+ .jigsaw .r {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    left: 11.2em;
+    border-radius: 4em;
+ }
+ 
+ .jigsaw .b { 
+  width: 1.8em;
+   height: 1.8em;
+   position: absolute;
+   top: 6.8em;
+   left: 2.2em;
+   -webkit-border-radius: 4em;
+   -moz-border-radius: 4em;
+   border-radius: 4em;
+   background-color: #000;
+ }
+ 
+ .jigsaw .l { 
+   width: 1.8em;
+   height: 1.8em;
+   position: absolute;
+   top: 2.2em;
+   left: -.4em;
+   -webkit-border-radius: 4em;
+   -moz-border-radius: 4em;
+   border-radius: 4em;
+   background-color: #000;
+ }
+
+
+
+
+
+
+ */
+
+
+
 .hero-content {
   height: inherit;
   display: flex;

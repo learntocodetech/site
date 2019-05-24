@@ -23,7 +23,7 @@ class IndexPage extends Component {
   render() {
     return (<Layout>
               <SEO
-                title="Conquer Algorithms & Make Amazing Chatbots"
+                title="Learn to Code Tech"
                 description="Learn to Code by Building Amazing Chatbots in JavaScript and Python."
                 keywords={[`learn to code`, `python`, `javascript`, `chatbots`]} 
               />

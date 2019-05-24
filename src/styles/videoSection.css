@@ -1,6 +1,4 @@
 .video-section__content {
-    display: grid;
-    grid-template-columns: 50% 50%;
     color: #000;
 }
 
@@ -32,7 +30,7 @@
 
 .video-section .video-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(4, 1fr);
 }
   
 
