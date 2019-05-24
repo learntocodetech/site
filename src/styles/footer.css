@@ -54,15 +54,20 @@ footer .section-divider h3 {
 
 .footer__logo img {
     width: 300px;
-    margin-top: 225px;
+    margin-top: 200px;
     margin-left: 50px;
 }
 
+
 .social-icon-list {
+    display: -webkit-flex;
     display: flex;
     margin: 0;
+    margin-left: 54px;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 30px;
 }
-
 .social-icon-list li {
     margin-right: 10px;
 }
