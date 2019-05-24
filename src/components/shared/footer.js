@@ -1,8 +1,6 @@
 import React from 'react'
 import Logo from '../../images/logo.svg'
 import SectionDivider from '../sectionDivider'
-import LinkedInIcon from '../../images/linkedin.svg'
-import FacebookIcon from '../../images/facebook.svg'
 
 const Footer = () => {
     return (<footer className="footer">
