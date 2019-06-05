@@ -6,55 +6,47 @@ import GuidesIcon from '../../images/pre-text.svg'
 import SlidesIcon from '../../images/pre-sliders.svg'
 import ChatbotIcon from '../../images/pre-ai.svg'
 import BlogIcon from '../../images/pre-rocket.svg'
-
 // import AppIcon from '../../images/mobile.svg'
 
 const Header = ({ siteTitle }) => 
   (<header>
     <div className="header-container">
-        <span className="logo"><img src={Logo} /></span>
+        <Link to="/" className="logo"><img src={Logo} /></Link>
         <nav className="main-nav">
           <ul className="main-nav__sections">
             <li>
-              <a href="#">
+              <Link to="/videos">
                 <img src={VideoIcon} />
                 Videos
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#">
+              <Link to="/guides">
                 <img src={GuidesIcon} />
                 Guides
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#">
+              <Link to="/slides">
                 <img src={SlidesIcon} />
                 Slides
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#">
+              <Link to="/chatbots">
                 <img src={ChatbotIcon} />
                 Chatbots
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/blog">
               <img src={BlogIcon} />
                 Blog
-              </a>
+              </Link>
             </li>
-
-            {/* <li>
-              <a href="#">
-                <img src={PartnerIcon} />
-                 Hire Us
-              </a>
-            </li> */}
           </ul>
         </nav>
     </div>

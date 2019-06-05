@@ -30,10 +30,7 @@ const Layout = ({ children }) => (
       <div>
           <Header siteTitle={data.site.siteMetadata.title} />
           <Banner label="Code with the best." />
-          <Hero />
-          <div className="container">
             <main>{children}</main>
-          </div>
           <Footer />
       </div>
         

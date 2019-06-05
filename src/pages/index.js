@@ -27,8 +27,11 @@ class IndexPage extends Component {
                 description="Learn to Code by Building Amazing Chatbots in JavaScript and Python."
                 keywords={[`learn to code`, `python`, `javascript`, `chatbots`]} 
               />
-              <VideoSection />
-              <GuideSection />
+              <IndexHero />
+              <div className="container">
+                <VideoSection />
+                <GuideSection />
+              </div>
             </Layout>)
   }
 }
