@@ -4,6 +4,7 @@ import SectionDivider from './sectionDivider'
 const VideoSection = () => {
     return (<section className="video-section feature-section">
                 <SectionDivider>VIDEOS</SectionDivider>
+                <div className="lines"></div>
                 <div className="video-section__content">
                     <div className="video-grid">
                         <div className="video-item">

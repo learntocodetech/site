@@ -11,6 +11,7 @@ import Sort from '../images/ltc-js-sort1.png'
 const GuideSection = () => {
     return (<section className="guide-section feature-section">
                 <SectionDivider>SLIDES</SectionDivider>
+                <div className="lines"></div>
                 <div className="guide-section__content">
                     <div className="guide-grid">
                         <div className="guide-item"><img src={Flat} /></div>

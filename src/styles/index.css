@@ -43,12 +43,13 @@ body {
   cursor: pointer;
 }
 
-.lines {
+/* .lines {
   position: absolute;
   width: 100%;
-  border: 1px inset #0086c2;
-  z-index: -1;
-}
+  height: 5px;
+  background:  rgb(0, 0 , 0, 0.3);
+  top: 100px;
+} */
 
 .half {
   color: #ffbd59;

@@ -617,3 +617,30 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+/* Custom */ 
+
+.page-container {
+  background: rgb(43,135,218);
+  background: linear-gradient(90deg, rgba(43,135,218,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.page-container .feature-section {
+  position: relative;
+}
+
+.page-container .feature-section .section-divider {
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  width: 200px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height: 200px;
+  margin: 50px auto;
+  position: relative;
+  z-index: 100;
+}
+
+.page-container .feature-section .section-divider h3 {
+  background: none;
+}
