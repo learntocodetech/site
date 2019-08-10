@@ -23,9 +23,9 @@
 }
 
 .guide-item img {
-  border: 1px solid #000;
+  /* border: 1px solid #fff; */
   border-radius: 6px;
-  box-shadow: 0 0 2px 0px;
+  /* box-shadow: 0 0 2px 0px; */
 }
 
 .guide-section__btn {
