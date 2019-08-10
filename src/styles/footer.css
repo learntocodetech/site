@@ -59,8 +59,7 @@ footer .section-divider h3 {
 }
 
 
-.social-icon-list {
-    display: -webkit-flex;
+.social-icons {
     display: flex;
     margin: 0;
     margin-left: 54px;
@@ -68,10 +67,10 @@ footer .section-divider h3 {
     width: 300px;
     margin-top: 30px;
 }
-.social-icon-list li {
+.social-icons li {
     margin-right: 10px;
 }
 
-.social-icon-list li img {
+.social-icons li img {
     width: 25px;
 }

@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="footer-divider">
                     <div>
                         <span className="footer__logo"><img src={Logo} /></span>
-                        <ul className="social-icon-list">
+                        <ul className="social-icons">
                             <li><a href={LinkedInURL} target="_blank"><img src={LinkedInIcon} /></a></li>
                             <li><a href={FacebookURL} target="_blank"><img src={FacebookIcon} /></a></li>
                             <li><a href={InstagramURL} target="_blank"><img src={InstagramIcon} /></a></li>

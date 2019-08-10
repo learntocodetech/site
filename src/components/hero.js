@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Hero = props => {
-    return (<div class="hero">
+    return (<div className="hero">
                 <div class="hero-content">
                     {props.children}
                 </div>
