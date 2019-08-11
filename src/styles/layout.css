@@ -623,7 +623,7 @@ pre tt:after {
 
 .page-container {
   background: rgb(43,135,218);
-  background: linear-gradient(90deg, rgba(43,135,218,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(43,135,218,1) 53%, rgba(0,0,0,1) 100%);
 }
 
 .page-container .feature-section {
