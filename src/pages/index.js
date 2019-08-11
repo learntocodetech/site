@@ -5,6 +5,7 @@ import Layout from "../components/shared/layout"
 import AppSection from "../components/appSection"
 import GuideSection from "../components/guideSection"
 import VideoSection from "../components/videoSection"
+import BlogSection from "../components/blogSection"
 import IndexHero from "../components/indexHero"
 
 import SEO from "../components/shared/seo"
@@ -29,6 +30,7 @@ class IndexPage extends Component {
               />
               <IndexHero />
               <div className="container">
+                <BlogSection />
                 <VideoSection />
                 <GuideSection />
               </div>

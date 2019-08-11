@@ -5,7 +5,7 @@ const VideoSection = () => {
     return (<section className="video-section feature-section">
                 <SectionDivider>VIDEOS</SectionDivider>
                 <div className="lines"></div>
-                <div className="video-section__content">
+                <div className="section-content video-section__content">
                     <div className="video-grid">
                         <div className="video-item">
                         <img src="https://img.youtube.com/vi/sEU12c-vG5U/hqdefault.jpg" />
@@ -22,10 +22,7 @@ const VideoSection = () => {
                             
                         </div>
                         
-                        <div className="video-item">
-                            <img src="https://img.youtube.com/vi/u9tmrQaTSC0/hqdefault.jpg" />
-
-                        </div>
+                    
                     </div>
                 </div>
                 
