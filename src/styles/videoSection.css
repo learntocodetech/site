@@ -30,12 +30,13 @@
 
 .video-section .video-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
   
 
 .video-section .video-item {
-    max-width: 340px;
+    max-width: 450px;
 }
 
 .video-section .video-item img {
