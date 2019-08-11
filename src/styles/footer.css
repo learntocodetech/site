@@ -18,6 +18,7 @@ p.made-with {
 
 footer .section-divider {
     background: #000;
+    border-top: 1px solid #1c1c1c; /* #222 */
     margin: 0;
 }
 
